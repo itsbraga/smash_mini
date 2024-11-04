@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libraries.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: art3mis <art3mis@student.42.fr>            +#+  +:+       +#+        */
+/*   By: annabrag <annabrag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 21:58:47 by annabrag          #+#    #+#             */
-/*   Updated: 2024/11/04 03:10:32 by art3mis          ###   ########.fr       */
+/*   Updated: 2024/10/31 04:19:38 by annabrag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,16 +28,16 @@
 # include <sys/wait.h>
 # include <signal.h>
 
-# include "../LIBFT_GNL_PRINTF/INCLUDES/libft.h"
-# include "../LIBFT_GNL_PRINTF/INCLUDES/ft_printf.h"
-# include "../LIBFT_GNL_PRINTF/INCLUDES/get_next_line_bonus.h"
+# include "../LIBFT/INCLUDES/libft.h"
+# include "../LIBFT/INCLUDES/ft_printf.h"
+# include "../LIBFT/INCLUDES/get_next_line_bonus.h"
 
-# include "colors.h"
-# include "tools.h"
-# include "defines.h"
 # include "structs.h"
-# include "minishell.h"
+# include "defines.h"
 # include "parser_lexer.h"
 # include "exec.h"
+# include "minishell.h"
+# include "tools.h"
+# include "colors.h"
 
 #endif
