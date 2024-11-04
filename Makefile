@@ -19,7 +19,7 @@ PINK		:=	\e[38;2;255;182;193m
 
 NAME		=	minishell
 
-LIBFT_PATH	=	./LIBFT/
+LIBFT_PATH	=	./LIBFT_GNL_PRINTF/
 LIBFT		=	$(LIBFT_PATH)libft.a
 
 CC			=	cc

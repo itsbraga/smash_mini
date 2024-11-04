@@ -6,7 +6,7 @@
 /*   By: annabrag <annabrag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 21:58:47 by annabrag          #+#    #+#             */
-/*   Updated: 2024/10/31 04:19:38 by annabrag         ###   ########.fr       */
+/*   Updated: 2024/11/04 21:37:08 by annabrag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,9 +28,9 @@
 # include <sys/wait.h>
 # include <signal.h>
 
-# include "../LIBFT/INCLUDES/libft.h"
-# include "../LIBFT/INCLUDES/ft_printf.h"
-# include "../LIBFT/INCLUDES/get_next_line_bonus.h"
+# include "../LIBFT_GNL_PRINTF/INCLUDES/libft.h"
+# include "../LIBFT_GNL_PRINTF/INCLUDES/ft_printf.h"
+# include "../LIBFT_GNL_PRINTF/INCLUDES/get_next_line_bonus.h"
 
 # include "structs.h"
 # include "defines.h"
